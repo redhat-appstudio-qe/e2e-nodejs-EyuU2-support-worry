@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: nodejs-health-check-8eqk
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/redhat-appstudio-qe/rhtap-demo-dbcm-tenant/e2e-nodejs/nodejs-health-check-8eqk@sha256:99670ad72789a69061e568dbc20dcec0612644047f0c3de78ce6b7a7d3792114
         name: my-nodejs
         ports:
         - containerPort: 3001
